@@ -1,6 +1,7 @@
 body {
     font-family: Ubuntu, sans-serif;
     text-align: center;
+    color: white;
 }
 
 .tweet{
@@ -20,6 +21,27 @@ body {
     background-color: black;
     overflow: hidden;
 }
+
+footer {
+   font-size: large; 
+
+}
+
+.bloglist {
+    padding: 5%;
+    border: solid;
+    text-align: center;
+    width: 50%;
+    border-radius: 1em;
+}
+
+.rice {
+    padding: 2%;
+    width: 60%;
+    border: solid;
+}
+
+
 
 /* Style the links inside the navigation bar */
 .topnav a {
