@@ -3,18 +3,6 @@
   <head>
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <style>
-
-
-      body {
-      font-family: Ubuntu, sans-serif;
-      text-align: center;
-      background-color: black;
-      color: pink;
-      }
-
-
-    </style>
   </head>
   
   <body>
