@@ -1,0 +1,14 @@
+#!/bin/bash
+
+name="$(echo | dmenu -p "HTML name :" | tr ' ' '-').html"
+
+echo | dmenu  > temphead ;
+
+echo "type your tweet in the next vim buffer" ;
+
+
+vim temptwt
+
+cat ./resources/first ./temphead ./resources/second ./temptwt ./resources/third > ../$name
+
+rm temphead temptwt

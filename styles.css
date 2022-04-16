@@ -1,0 +1,196 @@
+body {
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    background-color: black;
+    color: pink;
+}
+
+.tweet{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border: 4px solid lightpink;
+    padding: 50px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    width: 30% ;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    background-color: black;
+    overflow: hidden;
+}
+
+footer {
+   font-size: large; 
+
+}
+
+.bloglist {
+    padding: 5%;
+    border: solid;
+    text-align: center;
+    width: 50%;
+    border-radius: 1em;
+}
+
+.rice {
+    padding: 2%;
+    width: 60%;
+    border: solid;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: purple;
+    color: white;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tweetclass {
+    color: purple;
+    padding: 30px;
+}
+
+/* .right { */
+/*     float: right; */
+/*     width: 25%; */
+/* } */
+
+/* .maincontent { */
+/*     float: left; */
+/*     width: 75%; */
+/* } */
+html,
+body {
+	background-image: none !important;
+	background-color: rgba(40, 42, 54, 1) !important;
+}
+
+body * {
+	color: rgba(248, 248, 242, 1) !important;
+	background-color: rgba(40, 42, 54, 1) !important;
+}
+
+a,
+a * {
+	color: rgba(80, 250, 123, 1) !important;
+	background-color: transparent !important;
+}
+
+a:hover,
+a:hover *,
+a:visited:hover,
+a:visited:hover *,
+span[onclick]:hover,
+div[onclick]:hover,
+[role="link"]:hover,
+[role="link"]:hover *,
+[role="button"]:hover *,
+[role="menuitem"]:hover,
+[role="menuitem"]:hover *,
+.link:hover,
+.link:hover * {
+	color: rgba(241, 250, 140, 1) !important;
+}
+
+a:visited,
+a:visited * {
+	color: rgba(98, 114, 164, 1) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+[id*="headline"],
+[class*="headline"],
+[id*="header"],
+[class*="header"],
+[class*="header"] td {
+	color: rgba(255, 184, 108, 1) !important;
+}
+
+table {
+	background-color: rgba(40, 42, 54, 1) !important;
+}
+
+[id*="overlay"],
+[id*="lightbox"],
+blockquote {
+	background-color: rgba(68, 71, 90, 1) !important;
+}
+
+pre,
+dl {
+	background-color: rgba(68, 71, 90, 1) !important;
+}
+
+input,
+select,
+button,
+[role="button"],
+a.button,
+a.submit,
+a.BigButton,
+a.TabLink,
+.install[onclick] {
+	text-indent: 5px;
+	appearance: none !important;
+	-moz-appearance: none !important;
+	-webkit-appearance: none !important;
+	background: rgba(68, 71, 90, 1) !important;
+}
+
+textarea {
+	appearance: none !important;
+	-moz-appearance: none !important;
+	-webkit-appearance: none !important;
+	background: rgba(68, 71, 90, 1) !important;
+}
+
+div,
+ul,
+li {
+	background-image: none !important;
+}
+
+a.highlight,
+a.highlight *,
+a.active,
+a.active *,
+.selected,
+.selected *,
+[href="#"] {
+	font-weight: bold !important;
+	color: rgba(139, 233, 253, 1) !important;
+}

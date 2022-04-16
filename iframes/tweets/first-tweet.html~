@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<style>
+
+body {
+    text-align: center;
+    background-color: black;
+    color: pink;
+}
+
+
+
+</style>
+	</head>
+
+  <body>
+    <h3>
+first tweet with a script
+    </h3>
+    <p>
+Here , i have made a cool script to make tweeting less shitty , it's very cool
+    </p>
+    <img src="img/wood-bg-1.jpg" width="50%">
+
+  </body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: pink;
+}
+
+pre {
+    border: 1px solid pink;
+    border-radius: 3px;
+    background-color: black;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+}
+pre.src {
+    position: relative;
+    overflow: auto;
+}
+pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: pink;
+    background-color: #f2f2f299;
+}
+
