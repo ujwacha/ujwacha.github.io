@@ -21,3 +21,5 @@ fi
 echo $linetoadd | cat ./resources/first ./temphead ./resources/second ./temptwt ./resources/third - ./resources/fourth > ../$name
 
 rm temphead temptwt
+
+echo $name
